@@ -21,5 +21,8 @@
     ---> 59d46ea487b0
     Successfully built 59d46ea487b0
 
-    **(docker) ale:~/Repositorios/Docker$ sudo docker run 59d46ea487b0**
+    (docker) ale:~/Repositorios/Docker$ sudo docker run 59d46ea487b0
     This is the command when we run the image
+
+    (docker) ale:~/Repositorios/Docker$ sudo docker run 59d46ea487b0 echo "Overriding message"
+    Overriding message
