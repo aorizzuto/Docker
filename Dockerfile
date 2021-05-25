@@ -4,6 +4,8 @@ FROM busybox:1.24
 #RUN ls
 
 # To reduce image layers we can use:
-RUN ls && touch ale.txt && ls
+RUN ls && touch ale.txt && echo && ls
 
-CMD echo "This is the command when we run the image"
+#CMD echo "This is the command when we run the image"
+
+COPY ./emptyFile.txt /
