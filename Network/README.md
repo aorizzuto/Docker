@@ -21,3 +21,9 @@ _________________________
 ## None network
 
 Does not have any access to the outside world.
+
+_________________________
+
+## Bridge network
+
+This is the default network. All the containers are connected to each other

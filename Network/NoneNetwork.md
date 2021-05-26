@@ -5,7 +5,7 @@
         (docker) ale:~/Repositorios/Docker$ docker run -d --net none busybox sleep 1000
         1953d618c70ea7552ac340487f8b20577960a7ca9e5d2c4266aa0ed1088b2e9e
 
-2) Exec shell in the imagen and ping Google public DNS. 
+2) Exec shell in the imagen and ping Google public DNS.
 
     There is no responde because None network is not reaching outside world
 
