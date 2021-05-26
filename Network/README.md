@@ -7,14 +7,9 @@ There are four types:
 * Host Network
 * Overlay Network
 
-## To check the networks
+## To see the commands for "docker network" please refer to following link
 
-    (docker) ale:~/Repositorios/Docker$ sudo docker network ls
-
-    NETWORK ID     NAME      DRIVER    SCOPE
-    3e6e48796fcd   bridge    bridge    local
-    d5ad496e7480   host      host      local
-    f093d22c2cf2   none      null      local
+    <a href = "https://github.com/aorizzuto/Docker/Commands/NETWORKcommand.md" target="_blank">Commands for Network in Docker</a>
 
 _________________________
 
