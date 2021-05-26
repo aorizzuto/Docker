@@ -9,7 +9,7 @@ There are four types:
 
 ## To see the commands for "docker network" please refer to following link
 
-    <a href = "https://github.com/aorizzuto/Docker/Commands/NETWORKcommand.md" target="_blank">Commands for Network in Docker</a>
+[Commands for Network in Docker](../Commands/NETWORKcommand.md)
 
 _________________________
 
