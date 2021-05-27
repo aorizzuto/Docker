@@ -13,7 +13,7 @@
         * Loopback -> None
 
         (docker) ale:~$ docker exec -it container_1 ifconfig
-        eth0      Link encap:Ethernet  HWaddr 02:42:AC:11:00:02  
+        eth0      Link encap:Ethernet  
                 inet addr:172.17.0.2  Bcast:172.17.255.255  Mask:255.255.0.0
                 UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
                 RX packets:57 errors:0 dropped:0 overruns:0 frame:0
@@ -39,7 +39,7 @@
     We see that this eth0 network is located in 172.17.0.3, so it's connected with the previous container because it's in the range of IPs.
 
         (docker) ale:~$ docker exec -it container_2 ifconfig
-        eth0      Link encap:Ethernet  HWaddr 02:42:AC:11:00:03  
+        eth0      Link encap:Ethernet 
                 inet addr:172.17.0.3  Bcast:172.17.255.255  Mask:255.255.0.0
                 UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
                 RX packets:16 errors:0 dropped:0 overruns:0 frame:0
@@ -90,7 +90,7 @@
 8) Get the IP from container_3
 
         (docker) ale:~$ docker exec -it container_3 ifconfig
-        eth0      Link encap:Ethernet  HWaddr 02:42:AC:12:00:02  
+        eth0      Link encap:Ethernet  
                 inet addr:172.18.0.2  Bcast:172.18.255.255  Mask:255.255.0.0
                 UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
                 RX packets:57 errors:0 dropped:0 overruns:0 frame:0
@@ -123,7 +123,7 @@
 11) Look the ifconfig for container_3 again
 
         (docker) ale:~$ docker exec -it container_3 ifconfig
-        eth0      Link encap:Ethernet  HWaddr 02:42:AC:12:00:02  
+        eth0      Link encap:Ethernet  
                 inet addr:172.18.0.2  Bcast:172.18.255.255  Mask:255.255.0.0
                 UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
                 RX packets:90 errors:0 dropped:0 overruns:0 frame:0
@@ -131,7 +131,7 @@
                 collisions:0 txqueuelen:0 
                 RX bytes:11631 (11.3 KiB)  TX bytes:0 (0.0 B)
 
-        eth1      Link encap:Ethernet  HWaddr 02:42:AC:11:00:04  
+        eth1      Link encap:Ethernet 
                 inet addr:172.17.0.4  Bcast:172.17.255.255  Mask:255.255.0.0
                 UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
                 RX packets:48 errors:0 dropped:0 overruns:0 frame:0

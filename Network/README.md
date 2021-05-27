@@ -22,3 +22,16 @@ _________________________
 ## Bridge network
 
 This is the default network. All the containers are connected to each other
+
+_________________________
+
+## Host network
+
+They are called open containers also.
+
+_________________________
+
+## Overlay network
+
+All the above network can only be deployed on a single host.
+Overlay network supports multi-host.
