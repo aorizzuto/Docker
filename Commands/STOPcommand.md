@@ -8,4 +8,6 @@ We need the container ID first or the name.
     (docker) ale:~$ sudo docker ps
     CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 
-    (docker) ale:~$
+This will call the SIGTERM signal and it will take 10 seconds to finish.
+
+**NOTE: See KILL command.**

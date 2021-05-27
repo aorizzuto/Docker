@@ -1,5 +1,7 @@
 # Run Docker image from public registry
 
+RUN = CREATE + START
+
     docker run busybox:1.24 echo "Hello Alejandro!"
 
     Unable to find image 'busybox:1.24' locally
